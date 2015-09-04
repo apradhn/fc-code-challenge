@@ -64,3 +64,7 @@ html, body {
 .story > img {
   width: 200px;
 }
+
+.column.two {
+  margin-top: 100px;
+}
