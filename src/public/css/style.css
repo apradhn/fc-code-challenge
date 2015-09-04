@@ -52,7 +52,7 @@ html, body {
   align-self: center;
   display: flex;
   margin-top: 10%;
-  width: 80%;
+  width: 90%;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -67,4 +67,8 @@ html, body {
 
 .column.two {
   margin-top: 100px;
+}
+
+.story.one > img, .story.three > img, .story.five > img {
+  width: 400px;
 }
