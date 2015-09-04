@@ -9,6 +9,7 @@ Please find a design for a module as it appears on a 1440px-wide screen in its i
    * Story Title: 44px bold
    * Number Readers: 35px regular
    * Corner Number: 30px light
+   
 #### Images and Story Titles
 Use any images and titles from our sites
 #### Corner Ad
