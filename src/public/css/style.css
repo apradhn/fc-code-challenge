@@ -53,22 +53,14 @@ html, body {
   display: flex;
   margin-top: 10%;
   width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.story.one, .story.two, .story.three, .story.three, .story.five {
+.story {
   overflow: hidden;
-/*  -webkit-clip-path: inset(20% 20% 80% 80%);
-  clip-path: inset(20% 20% 80% 80%);*/
 }
 
-
-.story.one img, .story.three img, .story.five img {
+.story > img {
   width: 200px;
-/*  -webkit-clip-path: inset(20% 20% 80% 80%);
-  clip-path: inset(20% 20% 80% 80%);*/
-}
-
-body > div > div.stories-container > div.story.two > img, body > div > div.stories-container > div.story.four > img {
-  width: 200px;
-
 }
