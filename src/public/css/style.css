@@ -1,0 +1,28 @@
+.title-container {
+  display: flex;
+  flex-wrap: no-wrap;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.title-background {
+  margin-top: 40px;
+  width: 30em;
+  height: 30em;
+  background-color: rgb(200, 213, 221);
+  position: absolute;
+  z-index: -1;
+  -webkit-clip-path: circle(150px at 175px 160px);
+  clip-path: circle(150px at 175px 160px);
+
+}
+.title {
+  margin-top: 40px;
+  width: 30em;
+}
+.title h1 {
+  text-align: justify-all;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 51px ;
+  font-weight: normal;
+}
