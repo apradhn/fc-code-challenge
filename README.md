@@ -1,8 +1,8 @@
 # Fast Company Code Challenge
-## September4, 2015
-### Information
+#### September 4, 2015
+## Information
 Please find a design for a module as it appears on a 1440px-wide screen in its initial load state
-### Design Details
+## Design Details
 #### Font
    * Face: Helvetica
    * Module Title: 51px regular
@@ -21,7 +21,7 @@ Replace with a 300px x 250px placeholder. The space surrounding the ad is 20px w
 * Stories 02, 03, 04:
   * No image treatment
   * Numbers may be made up and implemented in any way
-### Directions
+## Directions
 **Build** this module using **HTML** and **CSS** using a Github repository.
 
 Add **states** to the stories such that stories 01 & 05 swap styles with
@@ -39,7 +39,7 @@ This can be as **simple** as a static set of three files or as **complex** as a 
 We estimate that this should take no longer than a week, but please
 send an update if you need more time.
 
-### Remember:
+## Remember:
 * Commit messages count.
 * Annotated code is good
 * Legible code is better.
