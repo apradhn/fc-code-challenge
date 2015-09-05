@@ -1,5 +1,5 @@
 html, body {
-  overflow: hidden;
+
 }
 .container {
   position: absolute;
@@ -59,11 +59,18 @@ html, body {
 
 .story {
   margin: 10px;
+  overflow: hidden;
+  width: 200px;
 }
 
 .story > img {
-  width: 200px;
+  height: 200px;
 }
+
+.story.one, .story.three, .story.five {
+  width: 400px;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -78,5 +85,5 @@ html, body {
 }
 
 .story.one > img, .story.three > img, .story.five > img {
-  width: 400px;
+  height: 400px;
 }
