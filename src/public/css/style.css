@@ -51,18 +51,26 @@ html, body {
 .stories-container {
   align-self: center;
   display: flex;
-  margin-top: 10%;
+  margin-top: 15%;
   width: 90%;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .story {
-  overflow: hidden;
+  margin: 10px;
 }
 
 .story > img {
   width: 200px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.one {
+  align-items: flex-end;
 }
 
 .column.two {
