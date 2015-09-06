@@ -142,8 +142,8 @@ html, body {
 .story.one {
   background-image: 
     linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.75)
     ), 
     url(images/3050319-poster-p-1-how-giving-up-refined-sugar-changed-my-brain.jpg);
     background-size: contain;
@@ -171,8 +171,8 @@ html, body {
 .story.five {
     background-image: 
     linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.75)
     ),
     url(images/3050794-poster-p-1-jessica-albas-honest-company-faces-5-million-lawsuit.jpg);
     background-size: contain;
