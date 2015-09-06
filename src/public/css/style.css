@@ -85,8 +85,8 @@ html, body {
 .story.one {
   background-image: 
     linear-gradient(
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
     ), 
     url(images/3050319-poster-p-1-how-giving-up-refined-sugar-changed-my-brain.jpg);
     background-size: contain;
