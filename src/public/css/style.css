@@ -124,14 +124,6 @@ html, body {
   height: 500px;
 }
 
-.story.one .num-readers-container, .story.five .num-readers-container {
-  display: none;
-}
-
-.story.two .description-container, .story.three .description-container, .story.four .description-container { 
-  display: none;
-}
-
 .column {
   display: flex;
   flex-direction: column;
@@ -144,8 +136,6 @@ html, body {
 .column.two {
   margin-top: 150px;
 }
-
-
 
 .story.one {
   background-image: 
@@ -197,4 +187,8 @@ html, body {
   height: 250px;
   background: #555;
   border: 20px solid #FFF;
+}
+
+.hide {
+  display: none;
 }
