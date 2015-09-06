@@ -124,6 +124,14 @@ html, body {
   height: 500px;
 }
 
+.story.one .num-readers-container, .story.five .num-readers-container {
+  display: none;
+}
+
+.story.two .description-container, .story.three .description-container, .story.four .description-container { 
+  display: none;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -151,19 +159,19 @@ html, body {
 }
 
 .story.two {
-  background: url(images/3050705-poster-p-1-every-iphone-6s-and-2015-apple-tv-rumor-in-handy-chart-form.jpg);
+  background: url(images/3036409-poster-p-1-the-art-of-saying-no.jpg);
   background-size: contain;
   background-repeat: no-repeat;  
 }
 
 .story.three {
-  background: url(images/3050258-poster-p-1-the-four-best-productivity-tricks-i-learned-at-google.jpg);
+  background: url(images/3019903-poster-p-8-thinking-mistakes-our-brains-make-every-day.jpg);
   background-size: contain;
   background-repeat: no-repeat;  
 }
 
 .story.four {
-  background: url(images/3050636-poster-p-1-force-touch-apple.jpg);
+  background: url(images/3050201-poster-p-1-8-tips-from-the-new-public-speaking-playbook.jpg);
   background-size: contain;
   background-repeat: no-repeat;  
 }
