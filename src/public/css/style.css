@@ -50,6 +50,8 @@ html, body {
 }
 
 .stories-container {
+  position: absolute;
+  z-index: 1;
   display: flex;
   margin-top: 10%;
   width: 90%;
@@ -62,15 +64,16 @@ html, body {
   width: 250px;
   height: 250px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   font-family: Helvetica, Arial, sans-serif;
-  text-align: center;  
 }
 
 .description {
-  align-self: center;
   font-weight: 600;
-  font-size: 44px;
+  font-size: 40px;
+  text-align: center;
+  align-self: center;
 }
 
 .num-readers {
@@ -78,6 +81,20 @@ html, body {
   background: #000;
   color: #FFF;
   font-size: 35px;
+}
+
+.corner {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #FFF;
+  font-size: 30px;
+  font-weight: 100;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-se
 }
 
 .story.one, .story.three, .story.five {
@@ -97,6 +114,8 @@ html, body {
 .column.two {
   margin-top: 100px;
 }
+
+
 
 .story.one {
   background-image: 
