@@ -18,6 +18,17 @@ $(function() {
         story.children('.description-container').addClass('hide');
         story.children('.num-readers-container').removeClass('hide');
       });
+    } else {
+      var stories = [one, five];
+      stories.forEach(function(story) {
+        story.children('.description-container').addClass('hide');
+        story.children('.num-readers-container').removeClass('hide');
+      });
+      stories = [two, three, four];
+      stories.forEach(function(story) {
+        story.children('.description-container').removeClass('hide');
+        story.children('.num-readers-container').addClass('hide');
+      });
     }
   }, 
   function() {
@@ -33,7 +44,18 @@ $(function() {
         story.children('.description-container').removeClass('hide');
         story.children('.num-readers-container').addClass('hide');
       });
-    }    
+    } else {
+      var stories = [one, five];
+      stories.forEach(function(story) {
+        story.children('.description-container').removeClass('hide');
+        story.children('.num-readers-container').addClass('hide');
+      });
+      stories = [two, three, four];
+      stories.forEach(function(story) {
+        story.children('.description-container').addClass('hide');
+        story.children('.num-readers-container').removeClass('hide');
+      });
+    }
   });
 
 
