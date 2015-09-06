@@ -4,6 +4,7 @@ html
     title!= 'Fast Company Code Challenge'
     style
       include ../public/css/style.css
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js')
   body
     div.container   
       div.title-container
@@ -13,31 +14,42 @@ html
       div.stories-background
       div.stories-container
         div.column.one
-          div.story.one
+          div.story.one(data-story-number="1")
             div.corner-container
               div.corner 01
             div.description-container
               div.description HOW GIVING UP REFINED SUGAR CHANGED MY BRAIN
-          div.story.four
+            div.num-readers-container.hide
+              div.num-readers 587 READING
+          div.story.four(data-story-number="4")
             div.corner-container
               div.corner 04
+            div.description-container.hide
+              div.description 8 NEW RULES OF PUBLIC SPEAKING
             div.num-readers-container
               div.num-readers 587 READING
-          div.story.five 
+          div.story.five(data-story-number="5") 
             div.corner-container
               div.corner 05
             div.description-container
               div.description JESSICA ALBA'S HONEST COMPANY FACES $5 MILLION LAWSUIT OVER "UNNATURAL INGREDIENTS"
+            div.num-readers-container.hide
+              div.num-readers 587 READING
         div.column.two
-          div.story.two
+          div.story.two(data-story-number="2")
             div.corner-container
               div.corner 02
+            div.description-container.hide
+              div.description THE MANY, MANY, MANY THINGS YOU SHOULD SAY "NO" TO AT WORK
             div.num-readers-container
               div.num-readers 587 READING
-          div.story.three
+          div.story.three(data-story-number="3")
             div.corner-container
               div.corner 03
+            div.description-container.hide
+              div.description 8 SUBCONSCIOUS MISTAKES OUR BRAINS MAKE EVERY DAY—AND HOW TO AVOID THEM
             div.num-readers-container
               div.num-readers 587 READING
       div.corner-ad-container
         div.corner-ad 
+    script(src='js/story_states.js')
