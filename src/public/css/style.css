@@ -95,10 +95,16 @@ html, body {
   font-size: 35px;
 }
 
-.corner-container {
+.column.one .corner-container {
   flex: 1;
   align-self: flex-end;  
 }
+
+.column.two .corner-container {
+  flex: 1;
+  align-self: flex-start;  
+}
+
 
 .corner {
   display: flex;
