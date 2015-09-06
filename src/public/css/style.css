@@ -64,9 +64,15 @@ html, body {
   width: 250px;
   height: 250px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   font-family: Helvetica, Arial, sans-serif;
+}
+
+.description-container {
+  align-self: center;
+  flex: 10;
+  display: flex; 
 }
 
 .description {
@@ -76,15 +82,24 @@ html, body {
   align-self: center;
 }
 
-.num-readers {
+.num-readers-container {
   align-self: center;
+  flex: 5;
+  display: flex;
+}
+
+.num-readers {
   background: #000;
   color: #FFF;
   font-size: 35px;
 }
 
+.corner-container {
+  flex: 1;
+  align-self: flex-end;  
+}
+
 .corner {
-  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,7 +109,7 @@ html, body {
   width: 50px;
   height: 50px;
   text-align: center;
-  font-family: Helvetica, Arial, sans-se
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .story.one, .story.three, .story.five {
