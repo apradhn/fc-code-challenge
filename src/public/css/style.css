@@ -89,6 +89,7 @@ html, body {
 }
 
 .num-readers {
+  align-self: center;
   background: #000;
   color: #FFF;
   font-size: 35px;
