@@ -27,11 +27,13 @@ $(function() {
       contentContainer = story.children('.content-container');
       contentContainer.children('.num-readers-container').addClass('hide');
       contentContainer.children('.description-container').removeClass('hide');
+      story.addClass('gradient');
     });
     hasDescription.forEach(function(story) {
       contentContainer = story.children('.content-container');
       contentContainer.children('.num-readers-container').removeClass('hide');
       contentContainer.children('.description-container').addClass('hide');
+      story.removeClass('gradient');
     });
   }  
 
