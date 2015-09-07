@@ -69,6 +69,37 @@ html, body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.story.one, .story.three, .story.five {
+  width: 500px;
+  height: 500px;
+}
+
+
+.image-container {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  z-index: -1;
+}
+
+.image-container img {
+  width: inherit;
+  height: inherit;
+  position: relative;
+  z-index: -2;
+  object-fit: cover;
+}
+
+.content-container {
+  width: inherit;
+  height: inherit;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .description-container {
   align-self: center;
   flex: 10;
@@ -117,11 +148,6 @@ html, body {
   height: 50px;
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
-}
-
-.story.one, .story.three, .story.five {
-  width: 500px;
-  height: 500px;
 }
 
 .column {
