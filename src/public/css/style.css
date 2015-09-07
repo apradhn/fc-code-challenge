@@ -69,6 +69,37 @@ html, body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.story.one, .story.three, .story.five {
+  width: 500px;
+  height: 500px;
+}
+
+
+.image-container {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  z-index: -1;
+}
+
+.image-container img {
+  width: inherit;
+  height: inherit;
+  position: relative;
+  z-index: -2;
+  object-fit: cover;
+}
+
+.content-container {
+  width: inherit;
+  height: inherit;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .description-container {
   align-self: center;
   flex: 10;
@@ -119,11 +150,6 @@ html, body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.story.one, .story.three, .story.five {
-  width: 500px;
-  height: 500px;
-}
-
 .column {
   display: flex;
   flex-direction: column;
@@ -135,46 +161,6 @@ html, body {
 
 .column.two {
   margin-top: 150px;
-}
-
-.story.one {
-  background-image: 
-    linear-gradient(
-      rgba(255, 255, 255, 0.75),
-      rgba(255, 255, 255, 0.75)
-    ), 
-    url(images/3050319-poster-p-1-how-giving-up-refined-sugar-changed-my-brain.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.story.two {
-  background: url(images/3036409-poster-p-1-the-art-of-saying-no.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;  
-}
-
-.story.three {
-  background: url(images/3019903-poster-p-8-thinking-mistakes-our-brains-make-every-day.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;  
-}
-
-.story.four {
-  background: url(images/3050201-poster-p-1-8-tips-from-the-new-public-speaking-playbook.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;  
-}
-
-.story.five {
-    background-image: 
-    linear-gradient(
-      rgba(255, 255, 255, 0.75),
-      rgba(255, 255, 255, 0.75)
-    ),
-    url(images/3050794-poster-p-1-jessica-albas-honest-company-faces-5-million-lawsuit.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;    
 }
 
 .corner-ad-container {
@@ -191,4 +177,10 @@ html, body {
 
 .hide {
   display: none;
+}
+
+.gradient {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0.75));
 }
