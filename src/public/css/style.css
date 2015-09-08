@@ -396,6 +396,7 @@ html, body {
     height: 500px;
   }
 
+
   /* styles for angled stories background */
   .stories-background {
     position: absolute;
@@ -437,6 +438,30 @@ html, body {
     background: #555;
     border: 20px solid #FFF;
   } 
+
+  @media (max-width: 1024px) {
+    .story {
+      margin: 10px;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    .story.one, .story.three, .story.five {
+      width: 400px;
+      height: 400px;
+    }
+
+    .corner-ad {
+      width: 240px;
+      height: 200px;
+      background: #555;
+      border: 20px solid #FFF;
+    } 
+  }  
 }
 
 
