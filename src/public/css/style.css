@@ -102,6 +102,7 @@ html, body {
     align-items: flex-end;
   }
   .column.two {
+    margin-top: 10%;
   }
 
 } 
