@@ -257,8 +257,8 @@ html, body {
 
   .story {
     margin: 5px;
-    width: 125px;
-    height: 125px;
+    width: 145px;
+    height: 145px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -366,8 +366,6 @@ html, body {
   flex: 10;
   display: flex; 
 }
-
-
 
 /* flex container for num-readers container*/
 .num-readers-container {
