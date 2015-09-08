@@ -292,10 +292,10 @@ html, body {
   }
   .corner-ad {
     margin-top: 5%;
-    width: 200px;
-    height: 150px;
+    width: 175px;
+    height: 125px;
     background: #555;
-    border: 20px solid #FFF;
+    border: 10px solid #FFF;
   } 
 }
 
