@@ -241,8 +241,8 @@ html, body {
 
   .story {
     margin: 10px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
