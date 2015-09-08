@@ -12,17 +12,18 @@ html, body {
 }
 
 /* flex container for page title */
-.title-container {
-  display: flex;
-  margin-top: 50px;
-  width: 100%;
-  height: 5%;
-  justify-content: center;
-}
 
 /* page title styles */
 /* disc background for title */
 @media (min-width: 1000px) {
+  .title-container {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    height: 5%;
+    justify-content: center;
+  }
+
   .title-background {
     width: 370px;
     height: 380px;
@@ -37,7 +38,7 @@ html, body {
     width: 380px;
   }
   .title h1 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif
     text-align: justify-all;
     letter-spacing: 0.01em;
     font-size: 51px;
@@ -46,7 +47,15 @@ html, body {
 
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 500px) and (max-width: 1000px) {
+  .title-container {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    height: 5%;
+    justify-content: center;
+  }
+
   .title-background {
     width: 50%;
     height: 380px;
@@ -61,10 +70,43 @@ html, body {
     width: 50%;
   }
   .title h1 {
+    letter-spacing: 0.01em;
+    text-align: justify-all;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 51px;
+    font-weight: normal;
+    text-align: center;
+  }  
+}
+
+@media (max-width: 500px) {
+  .title-container {
+    display: flex;
+    margin-top: 10%;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+  }  
+
+  .title-background {
+    width: 75%;
+    height: 200px;
+    background-color: rgb(200, 213, 221);
+    position: absolute;
+    z-index: -1;
+    -webkit-clip-path: circle(100px at center);
+    clip-path: circle(155px at center);
+  }  
+
+  .title {
+    width: 75%;
+  }  
+
+  .title h1 {
     font-family: Helvetica, Arial, sans-serif;
     letter-spacing: 0.01em;
     text-align: justify-all;
-    font-size: 51px;
+    font-size: 25px;
     font-weight: normal;
     text-align: center;
   }  
@@ -106,6 +148,7 @@ html, body {
   }
 
 } 
+
 @media (min-width: 1000px) {
   /* flex container for for stories*/
   .stories-container {
