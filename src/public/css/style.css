@@ -106,7 +106,7 @@ html, body {
     font-family: Helvetica, Arial, sans-serif;
     letter-spacing: 0.01em;
     text-align: justify-all;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: normal;
     text-align: center;
   }  
@@ -348,7 +348,7 @@ html, body {
     border: 20px solid #FFF;
   } 
 }
-@media (max-width: 1000px) {
+@media (min-width: 500px) and (max-width: 1000px) {
   .corner-ad-container {
     display: flex;
     justify-content: flex-end;
@@ -357,6 +357,20 @@ html, body {
     margin-top: 5%;
     width: 175px;
     height: 125px;
+    background: #555;
+    border: 10px solid #FFF;
+  } 
+}
+
+@media (max-width: 500px) {
+  .corner-ad-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .corner-ad {
+    margin-top: 5%;
+    width: 120px;
+    height: 100px;
     background: #555;
     border: 10px solid #FFF;
   } 
