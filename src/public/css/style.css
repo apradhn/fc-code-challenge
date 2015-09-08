@@ -378,29 +378,56 @@ html, body {
 
 
 /* styles for corner numbers */
-.column.one .corner-container {
-  flex: 1;
-  align-self: flex-end;  
-}
+@media (min-width: 500px) {
+  .column.one .corner-container {
+    flex: 1;
+    align-self: flex-end;  
+  }
 
-.column.two .corner-container {
-  flex: 1;
-  align-self: flex-start;  
-}
+  .column.two .corner-container {
+    flex: 1;
+    align-self: flex-start;  
+  }
 
-.corner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: #FFF;
-  font-size: 30px;
-  font-weight: 100;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
-}
+  .corner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFF;
+    font-size: 30px;
+    font-weight: 100;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+  }
 
+}
+@media (max-width: 500px) {
+  .column.one .corner-container {
+    flex: 1;
+    align-self: flex-end;  
+  }
+
+  .column.two .corner-container {
+    flex: 1;
+    align-self: flex-start;  
+  }
+
+  .corner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFF;
+    font-size: 15px;
+    font-weight: 100;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+}
 
 /* styles for corner ad*/
 @media (min-width: 1000px) {
