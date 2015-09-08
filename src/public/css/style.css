@@ -348,6 +348,17 @@ html, body {
     }
   }
 
+  @media(min-width: 800px) {
+    .stories-background {
+      margin-top: 5%;      
+    -webkit-clip-path: polygon(0% 5%, 100% 15%, 100% 60%, 0% 55%);
+    clip-path: polygon(0% 5%, 100% 13%, 100% 82%, 0% 74%);        
+    }
+    .stories-container {
+      margin-top: 10%;
+    }
+  }
+
   @media(min-width: 1000px) {
     .corner-ad {
       width: 180px;
