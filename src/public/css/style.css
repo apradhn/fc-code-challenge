@@ -113,6 +113,11 @@ html, body {
   align-self: center;
 }
 
+.story.two .description, .story.four .description {
+  font-size: 25px;
+  padding: 5px;
+}
+
 .num-readers-container {
   align-self: center;
   flex: 5;
