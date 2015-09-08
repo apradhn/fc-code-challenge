@@ -216,7 +216,7 @@ html, body {
     letter-spacing: 0.01em;
     text-align: justify-all;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 46px;
+    font-size: 40px;
     font-weight: normal;
     text-align: center;
     align-self: center;
@@ -345,6 +345,17 @@ html, body {
     .title-background {
       -webkit-clip-path: circle(130px at center);
       clip-path: circle(130px at center);    
+    }
+  }
+
+  @media(min-width: 800px) {
+    .stories-background {
+      margin-top: 5%;      
+    -webkit-clip-path: polygon(0% 5%, 100% 15%, 100% 60%, 0% 55%);
+    clip-path: polygon(0% 5%, 100% 13%, 100% 82%, 0% 74%);        
+    }
+    .stories-container {
+      margin-top: 10%;
     }
   }
 
