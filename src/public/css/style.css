@@ -206,17 +206,33 @@ html, body {
 }
 
 /* styles for corner ad*/
-.corner-ad-container {
-  display: flex;
-  justify-content: flex-end;
+@media (min-width: 1000px) {
+  .corner-ad-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .corner-ad {
+    width: 300px;
+    height: 250px;
+    background: #555;
+    border: 20px solid #FFF;
+  } 
+}
+@media (max-width: 1000px) {
+  .corner-ad-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .corner-ad {
+    margin-top: 10%;
+    width: 200px;
+    height: 150px;
+    background: #555;
+    border: 20px solid #FFF;
+  } 
 }
 
-.corner-ad {
-  width: 300px;
-  height: 250px;
-  background: #555;
-  border: 20px solid #FFF;
-}
+
 
 /* hides an html element*/
 .hide {
