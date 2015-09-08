@@ -159,8 +159,8 @@ html, body {
 
   .story {
     margin: 10px;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -168,8 +168,8 @@ html, body {
   }  
 
   .story.one, .story.three, .story.five {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
 
 
@@ -187,7 +187,43 @@ html, body {
 
 }
 
+@media (min-width: 1000px) {
+  .description {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    align-self: center;
+  }
 
+  .story.two .description, .story.four .description {
+    font-size: 25px;
+    padding: 5px;
+  }  
+
+  .num-readers {
+    align-self: center;
+    background: #000;
+    color: #FFF;
+    font-size: 35px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .description {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    align-self: center;
+  }
+
+  .num-readers {
+    align-self: center;
+    background: #000;
+    color: #FFF;
+    font-size: 30px;
+  }  
+}
 /* flex container for story images*/
 .image-container {
   width: inherit;
@@ -222,17 +258,7 @@ html, body {
   display: flex; 
 }
 
-.description {
-  font-weight: 600;
-  font-size: 40px;
-  text-align: center;
-  align-self: center;
-}
 
-.story.two .description, .story.four .description {
-  font-size: 25px;
-  padding: 5px;
-}
 
 /* flex container for num-readers container*/
 .num-readers-container {
@@ -241,12 +267,6 @@ html, body {
   display: flex;
 }
 
-.num-readers {
-  align-self: center;
-  background: #000;
-  color: #FFF;
-  font-size: 35px;
-}
 
 /* styles for corner numbers */
 .column.one .corner-container {
