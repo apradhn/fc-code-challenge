@@ -347,6 +347,13 @@ html, body {
       clip-path: circle(130px at center);    
     }
   }
+
+  @media(min-width: 1000px) {
+    .corner-ad {
+      width: 180px;
+      height: 150px;
+    }
+  }
 }
 
 /* styles for corner numbers */
