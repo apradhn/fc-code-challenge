@@ -48,7 +48,7 @@ html, body {
 
 @media (max-width: 1000px) {
   .title-background {
-    width: 80%;
+    width: 50%;
     height: 380px;
     background-color: rgb(200, 213, 221);
     position: absolute;
@@ -58,14 +58,15 @@ html, body {
 
   }
   .title {
-    width: 80%;
+    width: 50%;
   }
   .title h1 {
     font-family: Helvetica, Arial, sans-serif;
-    text-align: center;
     letter-spacing: 0.01em;
-    font-size: 60px;
+    text-align: justify-all;
+    font-size: 56px;
     font-weight: normal;
+    text-align: center;
   }  
 }
 
