@@ -342,12 +342,10 @@ html, body {
     .story.two .description, .story.four .description {
       font-size: 15px;
     }    
-
     .title-background {
       -webkit-clip-path: circle(130px at center);
       clip-path: circle(130px at center);    
     }
-
   }
 }
 
