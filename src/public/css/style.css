@@ -158,7 +158,7 @@ html, body {
     align-items: flex-end;
   }
   .column.two {
-    margin-top: 10%;
+    margin-top: 20%;
   }
 
 }
@@ -256,7 +256,7 @@ html, body {
   }
 
   .story {
-    margin: 10px;
+    margin: 5px;
     width: 125px;
     height: 125px;
     display: flex;
@@ -466,7 +466,7 @@ html, body {
     width: 72px;
     height: 60px;
     background: #555;
-    border: 10px solid #FFF;
+    border: 5px solid #FFF;
   } 
 }
 
