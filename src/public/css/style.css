@@ -59,6 +59,7 @@ html, body {
   display: flex;
 }
 
+/* responsive styling for smartphones*/
 @media (max-width: 500px) {
   .title-container {
     display: flex;
@@ -67,7 +68,8 @@ html, body {
     height: 10%;
     justify-content: center;
   }  
-
+  
+  /* styles for titles disc background */
   .title-background {
     width: 75%;
     height: 200px;
@@ -186,7 +188,7 @@ html, body {
 
 }
 
-
+/* responsives styles for tablets */
 @media (min-width: 500px) and (max-width: 1200px) {
   .title-container {
     display: flex;
@@ -393,7 +395,7 @@ html, body {
   }
 
 }
-
+/* responsive styles for desktops and laptops */
 @media (min-width: 1200px) {
   .title-container {
     display: flex;
@@ -506,7 +508,7 @@ html, body {
     background: #555;
     border: 20px solid #FFF;
   } 
-
+  
   @media (max-width: 1024px) {
     .story {
       margin: 10px;
