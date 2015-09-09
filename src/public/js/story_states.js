@@ -11,14 +11,12 @@ $(function() {
 
   $('.story').hover(function() {
     // callback function for mouseenter
-    number = $(this).data('story-number');
     noDescription = [two, three, four];
     hasDescription = [one, five];
     swapStyles(noDescription, hasDescription);
   }, 
   // callback function for mouseleave
   function() {
-    number = $(this).data('story-number')
     hasDescription = [two, three, four];
     noDescription = [one, five];
     swapStyles(noDescription, hasDescription);
