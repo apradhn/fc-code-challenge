@@ -10,11 +10,13 @@ $(function() {
   var number;
 
   $('.story').hover(function() {
+    // callback function for mouseenter
     number = $(this).data('story-number');
     noDescription = [two, three, four];
     hasDescription = [one, five];
     swapStyles(noDescription, hasDescription);
   }, 
+  // callback function for mouseleave
   function() {
     number = $(this).data('story-number')
     hasDescription = [two, three, four];
@@ -23,12 +25,14 @@ $(function() {
   });
 
   function swapStyles(noDescription, hasDescription) {
+    // for stories without a description, shows description, shows gradient and hides num-readers
     noDescription.forEach(function(story){
       contentContainer = story.children('.content-container');
       contentContainer.children('.num-readers-container').addClass('hide');
       contentContainer.children('.description-container').removeClass('hide');
       story.addClass('gradient');
     });
+    // for stories with a description, hides description, hides gradient and shows num-readers
     hasDescription.forEach(function(story) {
       contentContainer = story.children('.content-container');
       contentContainer.children('.num-readers-container').removeClass('hide');
