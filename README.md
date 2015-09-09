@@ -22,6 +22,7 @@ Replace with a 300px x 250px placeholder. The space surrounding the ad is 20px w
 * Stories 02, 03, 04:
   * No image treatment
   * Numbers may be made up and implemented in any way
+  
 ## Directions
 **Build** this module using **HTML** and **CSS** using a Github repository.
 
